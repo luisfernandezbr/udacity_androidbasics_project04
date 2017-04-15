@@ -4,7 +4,8 @@
     <item
         android:id="@+id/navigation_home"
         android:icon="@drawable/ic_navigation_home_black_24dp"
-        android:title="@string/title_home"/>
+        android:title="@string/title_home"
+        />
 
     <item
         android:id="@+id/navigation_dashboard"
@@ -12,13 +13,20 @@
         android:title="@string/title_dashboard"/>
 
     <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/ic_navigation_profile_black_24dp"
+        android:title="@string/title_profile"
+        android:enabled="true"
+        android:checked="true"/>
+
+    <item
+        android:id="@+id/navigation_trending"
+        android:icon="@drawable/ic_navigation_trending_black_24dp"
+        android:title="@string/title_trending"/>
+
+    <item
         android:id="@+id/navigation_notifications"
         android:icon="@drawable/ic_navigation_notifications_black_24dp"
         android:title="@string/title_notifications"/>
-
-    <item
-        android:id="@+id/navigation_profile"
-        android:icon="@drawable/ic_navigation_profile_black_24dp"
-        android:title="@string/title_profile"/>
 
 </menu>
